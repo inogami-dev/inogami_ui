@@ -11,29 +11,30 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/to/develop-packages).
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+# Package Introduction
+
+This package is useful for saving time when doing different projects as it contains custom widgets built on top of other widgets and utilities to adapt a design system.
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+This package has different kinds of widgets and utils customized to adapt a design system, this is to avoid repetition. DRY.
 
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+This is just a plug and play widgets that adapt a design system.
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
+As of now (May 9, 2026) Widgets and utilities that are currently available are:
 
-```dart
-const like = 'sample';
+``` MyText(text),
+    MyTextField(labelText, prefixIcon, textController),
+    showMyAnimatedSnackBar(context, textToDisplay),
+    MyBottomNavBar(mainPages, navBarItems),
+
+    MyDimensions.width(context) or MyDimensions.height(context)
 ```
 
 ## Additional information
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+No additional info yet.
