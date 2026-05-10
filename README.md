@@ -22,6 +22,25 @@ This package has different kinds of widgets and utils customized to adapt a desi
 ## Getting started
 
 This is just a plug and play widgets that adapt a design system.
+Setup:
+on ```pubspect.yaml```
+under the flutter line in the dependencies, include this package inogami_ui then provide the link
+
+```dependencies:
+  flutter:
+    sdk: flutter
+  inogami_ui:
+    git: https://github.com/inogami-dev/inogami_ui.git
+```
+
+or when using offline from a parent folder
+
+``` dependencies:
+  flutter:
+    sdk: flutter
+  inogami_ui:
+    path: ../ 
+```
 
 ## Usage
 
