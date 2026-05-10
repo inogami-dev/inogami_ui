@@ -27,19 +27,19 @@ on ```pubspect.yaml```
 under the flutter line in the dependencies, include this package inogami_ui then provide the link
 
 ```dependencies:
-  flutter:
-    sdk: flutter
-  inogami_ui:
-    git: https://github.com/inogami-dev/inogami_ui.git
+    flutter:
+        sdk: flutter
+    inogami_ui:
+        git: https://github.com/inogami-dev/inogami_ui.git
 ```
 
 or when using offline from a parent folder
 
 ``` dependencies:
-  flutter:
-    sdk: flutter
-  inogami_ui:
-    path: ../ 
+        flutter:
+            sdk: flutter
+        inogami_ui:
+            path: ../ 
 ```
 
 ## Usage
